@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="program.css"/>
+        <link rel="stylesheet" href="../styles.css"/>
+        <title>Subtitle</title>
+    </head>
+    <body class="main">
+        <div class="text-body">
+            <div id="subtitle"></div>
+            <h1 id="placeholder-text"></h1>
+        </div>
+        <div class="row col-12 buttons no-padding">
+            <div class="col-4 no-padding">
+                <input id='ch-txt' type='file' accept="text/*" hidden/>
+                <input id='ch-upload-btn' type='button' class="btn ch-upload-btn" value='上傳中文' />
+            </div>
+            <div class="col-4 no-padding">
+                <input id='eng-txt' type='file' accept="text/*" hidden/>
+                <input id='eng-upload-btn' type='button' class="btn eng-upload-btn" value='Upload English' disabled/>
+            </div>
+            <div class="col-4 no-padding">
+                <button id='start-btn' type="button" class="btn start-btn" onclick="openPopup()" disabled>Start</button>
+            </div>
+        </div>
+
+        <script src="./program.js"></script>
+    </body>
+</html>

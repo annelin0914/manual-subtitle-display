@@ -1,0 +1,18 @@
+{
+  "name": "subtitles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron --enable-transparent-visuals .",
+    "build": "npx electron-packager ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.2.3",
+    "electron": "^22.0.0",
+    "electron-localshortcut": "^3.2.1"
+  }
+}
